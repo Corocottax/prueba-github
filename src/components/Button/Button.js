@@ -1,5 +1,9 @@
-import "./Button.css";
+import './Button.css'
 
-const p = document.createElement("p");
+const p = document.createElement('p')
 
-document.body.append(p);
+p.textContent = 'Confirm'
+
+document.body.append(p)
+
+p.addEventListener('click', () => alert('Hola soy un boton'))
