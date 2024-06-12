@@ -1,0 +1,1 @@
+console.log(alert.message('HOLA COMPAÑER@S!!!'));
